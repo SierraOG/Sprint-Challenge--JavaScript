@@ -83,7 +83,7 @@ Name email@example.com
 
 Log the result of your new array. */
 const contactInfo = [];
-graduates.forEach(function(graduate){
+graduates.forEach(graduate => {
   contactInfo.push(`${graduate.first_name} ${graduate.email}`);
 });
 console.log(contactInfo);
@@ -118,7 +118,7 @@ The zoo wants to display both the scientific name and the animal name in front o
 
 */
 let animalNames = [];
-zooAnimals.forEach( function(zooAnimal){
+zooAnimals.forEach( zooAnimal => {
   animalNames.push({ animal_name: zooAnimal.animal_name, scientific_name: zooAnimal.scientific_name });
 });
 console.log(animalNames);
